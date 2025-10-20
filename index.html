@@ -10,29 +10,30 @@
 <body>
     <!-- Cabecera -->
     <header>
-        <img src="https://cdn.pixabay.com/photo/2013/04/01/09/18/document-98478_960_720.png" alt="Logo" class="logo">
-        <h1>Mi web estática</h1>
+        <img src="C:\Users\lalon\mi-web-estatica\yo.jpg" alt="Nuevo logo" class="logo">
+        <h1>Página Web de Laura</h1>
     </header>
 
-    <div class="container">
+    <div class="container"><seccion id=""sobre-mi>
         <!-- Menú Izquierdo -->
         <nav class="sidebar">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">prueba</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>  <!-- Cambiado aquí -->
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
+			
         </nav>
 
         <!-- Contenido Principal -->
         <main class="main-content">
-            <h2>Bienvenido a Nuestra Web</h2>
+            <h2>Bienvenido a mi Web</h2>
             <p>
-                Esta es una estructura básica de una página web con una cabecera, un menú lateral y una sección principal de contenido.
+               <strong> Esta es una estructura básica de una página web con una cabecera, un menú lateral y una sección principal de contenido.</strong>
             </p>
             <p>
-                Puedes modificar este contenido y adaptarlo según las necesidades de tu proyecto o para aprender sobre HTML y CSS.
+                Puedes <q>modificar</q> este contenido y adaptarlo según las necesidades de tu proyecto o para aprender sobre HTML y CSS.
             </p>
 
             <!-- Botón para mostrar/ocultar información -->
@@ -68,6 +69,14 @@
                     </li>
                 </ol>
             </div>
+			<seccion id="sobre-mi" style="display: none; margin-top: 20px; padding: 15px; background-color: #f9f9f9; border-left: 4px solid #007BFF;">
+			        <h3>Sobre Mi</h3>
+			        <p>¡Hola! Soy Laura, desarrolladora web apasionada por crear sitios estáticos y dinámicos.</p>
+			        <p><strong>Mi Dirección:</strong> Instituto ies camas, sevilla, 41900. camas.</p>
+			        <p><strong>Teléfono:</strong> +34 123 456 789</p>
+			        <p><strong>Email:</strong> tu.email@ejemplo.com</p>
+			        <!-- Puedes añadir más detalles, como una foto o enlaces a redes sociales -->
+			        <p><em>¡Gracias por visitar mi sitio!</em></p>></seccion>
         </main>
     </div>
 
