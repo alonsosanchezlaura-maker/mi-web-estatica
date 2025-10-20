@@ -14,3 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+// Nueva funcionalidad para "Sobre Mi"
+document.querySelector('a[href="#sobre-mi"]').addEventListener("click", function(e) {
+    e.preventDefault(); // Evita el salto de página predeterminado
+    var seccionSobreMi = document.getElementById("sobre-mi");
+    if (seccionSobreMi.style.display === "none" || seccionSobreMi.style.display === "") {
+        seccionSobreMi.style.display = "block";
+    } else {
+        seccionSobreMi.style.display = "none";
+    }
+});
